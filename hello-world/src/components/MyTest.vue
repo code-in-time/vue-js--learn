@@ -21,7 +21,7 @@ export default {
       this.counter  = this.counter + 2;
       this.clicks++;
     }
-  } 
+  }
 }
 </script>
 

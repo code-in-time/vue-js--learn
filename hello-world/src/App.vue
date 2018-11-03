@@ -1,27 +1,30 @@
 <template>
-  <div id="app">
+  <div  class="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    ttt
+    <h1>test</h1>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <MyTest />
-    </div>
+    <MyShowHide />
+  </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import MyTest from './components/MyTest.vue'
+import MyShowHide from './components/myShowHide'
 
 export default {
-  name: 'app',
+  // name: 'appddddddd',
   components: {
     // HelloWorld,
-    MyTest
+    MyTest,
+    MyShowHide
   }
 }
 </script>
 
-<style>
-#app {
+<style scoped>
+.app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,4 +32,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+  h1 {
+    color: red;
+  }
 </style>
