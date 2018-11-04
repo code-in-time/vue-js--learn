@@ -5,6 +5,7 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <MyTest />
     <MyShowHide />
+    <AppFormInput />
   </div>
 </template>
 
@@ -12,13 +13,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import MyTest from './components/MyTest.vue'
 import MyShowHide from './components/myShowHide'
+import AppFormInput from './components/AppFormInput'
 
 export default {
   // name: 'appddddddd',
   components: {
     // HelloWorld,
     MyTest,
-    MyShowHide
+    MyShowHide,
+    AppFormInput
   }
 }
 </script>
