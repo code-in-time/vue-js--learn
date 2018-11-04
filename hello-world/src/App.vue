@@ -3,25 +3,29 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <h1>test</h1>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <MyTest />
+    <!-- <MyTest />
     <MyShowHide />
-    <AppFormInput />
+    <AppFormInput /> -->
+    <hr />
+    <Main />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import MyTest from './components/MyTest.vue'
-import MyShowHide from './components/myShowHide'
-import AppFormInput from './components/AppFormInput'
+// import HelloWorld from './components/HelloWorld.vue'
+// import MyTest from './components/MyTest.vue'
+// import MyShowHide from './components/myShowHide'
+// import AppFormInput from './components/AppFormInput'
+import Main from "./components/Main";
 
 export default {
   // name: 'appddddddd',
   components: {
     // HelloWorld,
-    MyTest,
-    MyShowHide,
-    AppFormInput
+    // MyTest,
+    // MyShowHide,
+    // AppFormInput
+    Main
   }
 }
 </script>
