@@ -15,10 +15,6 @@
                 message: "my message"
             }
         },
-    //     components: {
-    //        appInput,
-    //     //    Message
-    //    }
         methods: {
             changeNessage(e) {
                 this.message = e.target.value;
