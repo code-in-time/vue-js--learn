@@ -1,13 +1,13 @@
 <template>
   <div  class="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <h1>test</h1>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <h1>test</h1> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <MyTest />
     <MyShowHide />
     <AppFormInput /> -->
-    <hr />
-    <Main />
+    <!-- <hr /> -->
+    <Main2 />
   </div>
 </template>
 
@@ -16,7 +16,8 @@
 // import MyTest from './components/MyTest.vue'
 // import MyShowHide from './components/myShowHide'
 // import AppFormInput from './components/AppFormInput'
-import Main from "./components/Main";
+// import Main from "./components/Main";
+import Main2 from "./components/Main2";
 
 export default {
   // name: 'appddddddd',
@@ -25,7 +26,8 @@ export default {
     // MyTest,
     // MyShowHide,
     // AppFormInput
-    Main
+    // Main,
+    Main2
   }
 }
 </script>
